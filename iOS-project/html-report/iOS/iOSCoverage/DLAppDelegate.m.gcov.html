@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>LCOV - report.info - iOS/iOSCoverage/DLAppDelegate.m</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LTP GCOV extension - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+        <tr>
+          <td class="headerItem" width="20%">Current&nbsp;view:</td>
+          <td class="headerValue" width="80%" colspan=4><a href="../../index.html">directory</a> - <a href="index.html">iOS/iOSCoverage</a> - DLAppDelegate.m</td>
+        </tr>
+        <tr>
+          <td class="headerItem" width="20%">Test:</td>
+          <td class="headerValue" width="80%" colspan=4>report.info</td>
+        </tr>
+        <tr>
+          <td class="headerItem" width="20%">Date:</td>
+          <td class="headerValue" width="20%">2012-08-23</td>
+          <td width="20%"></td>
+          <td class="headerItem" width="20%">Instrumented&nbsp;lines:</td>
+          <td class="headerValue" width="20%">17</td>
+        </tr>
+        <tr>
+          <td class="headerItem" width="20%">Code&nbsp;covered:</td>
+          <td class="headerValue" width="20%">47.1 %</td>
+          <td width="20%"></td>
+          <td class="headerItem" width="20%">Executed&nbsp;lines:</td>
+          <td class="headerValue" width="20%">8</td>
+        </tr>
+        </table>
+      </td>
+    </tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td><pre class="source">
+<span class="lineNum">       1 </span>                : //
+<span class="lineNum">       2 </span>                : //  DLAppDelegate.m
+<span class="lineNum">       3 </span>                : //  iOSCoverage
+<span class="lineNum">       4 </span>                : //
+<span class="lineNum">       5 </span>                : //  Created by Denis Lebedev on 23.08.12.
+<span class="lineNum">       6 </span>                : //  Copyright (c) 2012 Denis Lebedev. All rights reserved.
+<span class="lineNum">       7 </span>                : //
+<span class="lineNum">       8 </span>                : 
+<span class="lineNum">       9 </span>                : #import &quot;DLAppDelegate.h&quot;
+<span class="lineNum">      10 </span>                : 
+<span class="lineNum">      11 </span><span class="lineNoCov">              0 : @implementation DLAppDelegate</span>
+<span class="lineNum">      12 </span>                : 
+<span class="lineNum">      13 </span>                : - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+<span class="lineNum">      14 </span><span class="lineCov">              1 : {</span>
+<span class="lineNum">      15 </span>                :     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+<span class="lineNum">      16 </span><span class="lineCov">              3 :     // Override point for customization after application launch.</span>
+<span class="lineNum">      17 </span>                :     self.window.backgroundColor = [UIColor whiteColor];
+<span class="lineNum">      18 </span><span class="lineCov">              1 :     [self.window makeKeyAndVisible];</span>
+<span class="lineNum">      19 </span><span class="lineCov">              1 :     return YES;</span>
+<span class="lineNum">      20 </span><span class="lineCov">              1 : }</span>
+<span class="lineNum">      21 </span><span class="lineCov">              1 : </span>
+<span class="lineNum">      22 </span>                : - (void)applicationWillResignActive:(UIApplication *)application
+<span class="lineNum">      23 </span><span class="lineNoCov">              0 : {</span>
+<span class="lineNum">      24 </span>                :     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+<span class="lineNum">      25 </span>                :     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+<span class="lineNum">      26 </span>                : }
+<span class="lineNum">      27 </span><span class="lineNoCov">              0 : </span>
+<span class="lineNum">      28 </span>                : - (void)applicationDidEnterBackground:(UIApplication *)application
+<span class="lineNum">      29 </span><span class="lineNoCov">              0 : {</span>
+<span class="lineNum">      30 </span>                :     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+<span class="lineNum">      31 </span>                :     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+<span class="lineNum">      32 </span>                : }
+<span class="lineNum">      33 </span><span class="lineNoCov">              0 : </span>
+<span class="lineNum">      34 </span>                : - (void)applicationWillEnterForeground:(UIApplication *)application
+<span class="lineNum">      35 </span><span class="lineNoCov">              0 : {</span>
+<span class="lineNum">      36 </span>                :     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+<span class="lineNum">      37 </span>                : }
+<span class="lineNum">      38 </span><span class="lineNoCov">              0 : </span>
+<span class="lineNum">      39 </span>                : - (void)applicationDidBecomeActive:(UIApplication *)application
+<span class="lineNum">      40 </span><span class="lineCov">              1 : {</span>
+<span class="lineNum">      41 </span>                :     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+<span class="lineNum">      42 </span>                : }
+<span class="lineNum">      43 </span><span class="lineCov">              1 : </span>
+<span class="lineNum">      44 </span>                : - (void)applicationWillTerminate:(UIApplication *)application
+<span class="lineNum">      45 </span><span class="lineNoCov">              0 : {</span>
+<span class="lineNum">      46 </span>                :     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+<span class="lineNum">      47 </span>                : }
+<span class="lineNum">      48 </span><span class="lineNoCov">              0 : </span>
+<span class="lineNum">      49 </span>                : @end
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+  <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LTP GCOV extension version 1.6</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

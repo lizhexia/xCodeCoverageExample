@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D59575115E658CB00E576C1 /* MyCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59575015E658CB00E576C1 /* MyCalc.m */; };
+		1D59575515E658E100E576C1 /* MyCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59575415E658E100E576C1 /* MyCalcTests.m */; };
+		1D59575615E6599900E576C1 /* MyCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59575015E658CB00E576C1 /* MyCalc.m */; };
+		1D5D673A15E5E80800336BDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5D673915E5E80800336BDA /* Cocoa.framework */; };
+		1D5D674415E5E80800336BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D674215E5E80800336BDA /* InfoPlist.strings */; };
+		1D5D674615E5E80800336BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D674515E5E80800336BDA /* main.m */; };
+		1D5D674A15E5E80800336BDA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D674815E5E80800336BDA /* Credits.rtf */; };
+		1D5D674D15E5E80800336BDA /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D674C15E5E80800336BDA /* DLAppDelegate.m */; };
+		1D5D675015E5E80800336BDA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D674E15E5E80800336BDA /* MainMenu.xib */; };
+		1D5D675815E5E80800336BDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5D675715E5E80800336BDA /* SenTestingKit.framework */; };
+		1D5D675915E5E80800336BDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5D673915E5E80800336BDA /* Cocoa.framework */; };
+		1D5D676115E5E80800336BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D675F15E5E80800336BDA /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5D675A15E5E80800336BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5D672C15E5E80800336BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5D673415E5E80800336BDA;
+			remoteInfo = MacCoverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D59574F15E658CB00E576C1 /* MyCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCalc.h; path = ../../Common/MyCalc.h; sourceTree = "<group>"; };
+		1D59575015E658CB00E576C1 /* MyCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCalc.m; path = ../../Common/MyCalc.m; sourceTree = "<group>"; };
+		1D59575315E658E100E576C1 /* MyCalcTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCalcTests.h; path = ../../Common/MyCalcTests.h; sourceTree = "<group>"; };
+		1D59575415E658E100E576C1 /* MyCalcTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCalcTests.m; path = ../../Common/MyCalcTests.m; sourceTree = "<group>"; };
+		1D5D673515E5E80800336BDA /* MacCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5D673915E5E80800336BDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D5D673C15E5E80800336BDA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D5D673D15E5E80800336BDA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D5D673E15E5E80800336BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D5D674115E5E80800336BDA /* MacCoverage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacCoverage-Info.plist"; sourceTree = "<group>"; };
+		1D5D674315E5E80800336BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D5D674515E5E80800336BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D5D674715E5E80800336BDA /* MacCoverage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacCoverage-Prefix.pch"; sourceTree = "<group>"; };
+		1D5D674915E5E80800336BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D5D674B15E5E80800336BDA /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		1D5D674C15E5E80800336BDA /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		1D5D674F15E5E80800336BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D5D675615E5E80800336BDA /* MacCoverageTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacCoverageTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5D675715E5E80800336BDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D5D675E15E5E80800336BDA /* MacCoverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacCoverageTests-Info.plist"; sourceTree = "<group>"; };
+		1D5D676015E5E80800336BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5D673215E5E80800336BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D673A15E5E80800336BDA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5D675215E5E80800336BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D675815E5E80800336BDA /* SenTestingKit.framework in Frameworks */,
+				1D5D675915E5E80800336BDA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5D672A15E5E80800336BDA = {
+			isa = PBXGroup;
+			children = (
+				1D5D673F15E5E80800336BDA /* MacCoverage */,
+				1D5D675C15E5E80800336BDA /* MacCoverageTests */,
+				1D5D673815E5E80800336BDA /* Frameworks */,
+				1D5D673615E5E80800336BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5D673615E5E80800336BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D673515E5E80800336BDA /* MacCoverage.app */,
+				1D5D675615E5E80800336BDA /* MacCoverageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5D673815E5E80800336BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D673915E5E80800336BDA /* Cocoa.framework */,
+				1D5D675715E5E80800336BDA /* SenTestingKit.framework */,
+				1D5D673B15E5E80800336BDA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5D673B15E5E80800336BDA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D673C15E5E80800336BDA /* AppKit.framework */,
+				1D5D673D15E5E80800336BDA /* CoreData.framework */,
+				1D5D673E15E5E80800336BDA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D5D673F15E5E80800336BDA /* MacCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				1D59574F15E658CB00E576C1 /* MyCalc.h */,
+				1D59575015E658CB00E576C1 /* MyCalc.m */,
+				1D5D674B15E5E80800336BDA /* DLAppDelegate.h */,
+				1D5D674C15E5E80800336BDA /* DLAppDelegate.m */,
+				1D5D674E15E5E80800336BDA /* MainMenu.xib */,
+				1D5D674015E5E80800336BDA /* Supporting Files */,
+			);
+			path = MacCoverage;
+			sourceTree = "<group>";
+		};
+		1D5D674015E5E80800336BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D674115E5E80800336BDA /* MacCoverage-Info.plist */,
+				1D5D674215E5E80800336BDA /* InfoPlist.strings */,
+				1D5D674515E5E80800336BDA /* main.m */,
+				1D5D674715E5E80800336BDA /* MacCoverage-Prefix.pch */,
+				1D5D674815E5E80800336BDA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5D675C15E5E80800336BDA /* MacCoverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D59575315E658E100E576C1 /* MyCalcTests.h */,
+				1D59575415E658E100E576C1 /* MyCalcTests.m */,
+				1D5D675D15E5E80800336BDA /* Supporting Files */,
+			);
+			path = MacCoverageTests;
+			sourceTree = "<group>";
+		};
+		1D5D675D15E5E80800336BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D675E15E5E80800336BDA /* MacCoverageTests-Info.plist */,
+				1D5D675F15E5E80800336BDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5D673415E5E80800336BDA /* MacCoverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5D676715E5E80800336BDA /* Build configuration list for PBXNativeTarget "MacCoverage" */;
+			buildPhases = (
+				1D5D673115E5E80800336BDA /* Sources */,
+				1D5D673215E5E80800336BDA /* Frameworks */,
+				1D5D673315E5E80800336BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCoverage;
+			productName = MacCoverage;
+			productReference = 1D5D673515E5E80800336BDA /* MacCoverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5D675515E5E80800336BDA /* MacCoverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5D676A15E5E80800336BDA /* Build configuration list for PBXNativeTarget "MacCoverageTests" */;
+			buildPhases = (
+				1D5D675115E5E80800336BDA /* Sources */,
+				1D5D675215E5E80800336BDA /* Frameworks */,
+				1D5D675315E5E80800336BDA /* Resources */,
+				1D5D675415E5E80800336BDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5D675B15E5E80800336BDA /* PBXTargetDependency */,
+			);
+			name = MacCoverageTests;
+			productName = MacCoverageTests;
+			productReference = 1D5D675615E5E80800336BDA /* MacCoverageTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5D672C15E5E80800336BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Denis Lebedev";
+			};
+			buildConfigurationList = 1D5D672F15E5E80800336BDA /* Build configuration list for PBXProject "MacCoverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D5D672A15E5E80800336BDA;
+			productRefGroup = 1D5D673615E5E80800336BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5D673415E5E80800336BDA /* MacCoverage */,
+				1D5D675515E5E80800336BDA /* MacCoverageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5D673315E5E80800336BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D674415E5E80800336BDA /* InfoPlist.strings in Resources */,
+				1D5D674A15E5E80800336BDA /* Credits.rtf in Resources */,
+				1D5D675015E5E80800336BDA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5D675315E5E80800336BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D676115E5E80800336BDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D5D675415E5E80800336BDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5D673115E5E80800336BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D674615E5E80800336BDA /* main.m in Sources */,
+				1D5D674D15E5E80800336BDA /* DLAppDelegate.m in Sources */,
+				1D59575115E658CB00E576C1 /* MyCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5D675115E5E80800336BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D59575515E658E100E576C1 /* MyCalcTests.m in Sources */,
+				1D59575615E6599900E576C1 /* MyCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5D675B15E5E80800336BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5D673415E5E80800336BDA /* MacCoverage */;
+			targetProxy = 1D5D675A15E5E80800336BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5D674215E5E80800336BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D674315E5E80800336BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D5D674815E5E80800336BDA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D674915E5E80800336BDA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D5D674E15E5E80800336BDA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D674F15E5E80800336BDA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1D5D675F15E5E80800336BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D676015E5E80800336BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5D676515E5E80800336BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D5D676615E5E80800336BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D5D676815E5E80800336BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoverage/MacCoverage-Prefix.pch";
+				INFOPLIST_FILE = "MacCoverage/MacCoverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D5D676915E5E80800336BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoverage/MacCoverage-Prefix.pch";
+				INFOPLIST_FILE = "MacCoverage/MacCoverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D5D676B15E5E80800336BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacCoverage.app/Contents/MacOS/MacCoverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoverage/MacCoverage-Prefix.pch";
+				INFOPLIST_FILE = "MacCoverageTests/MacCoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D5D676C15E5E80800336BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacCoverage.app/Contents/MacOS/MacCoverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoverage/MacCoverage-Prefix.pch";
+				INFOPLIST_FILE = "MacCoverageTests/MacCoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5D672F15E5E80800336BDA /* Build configuration list for PBXProject "MacCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5D676515E5E80800336BDA /* Debug */,
+				1D5D676615E5E80800336BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5D676715E5E80800336BDA /* Build configuration list for PBXNativeTarget "MacCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5D676815E5E80800336BDA /* Debug */,
+				1D5D676915E5E80800336BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5D676A15E5E80800336BDA /* Build configuration list for PBXNativeTarget "MacCoverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5D676B15E5E80800336BDA /* Debug */,
+				1D5D676C15E5E80800336BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5D672C15E5E80800336BDA /* Project object */;
+}

@@ -1,0 +1,231 @@
+TiOSCoverage
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/Info.plist iOSCoverage/iOSCoverage-Info.plist
+cProcessPCH /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch.pth iOSCoverage/iOSCoverage-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cxzlzrvrkshwiwbccwdgqpnhirav/iOSCoverage-Prefix.pch.pth iOSCoverage/iOSCoverage-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage normal i386
+cGenerateDSYMFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage
+cCopyStringsFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/en.lproj/InfoPlist.strings iOSCoverage/en.lproj/InfoPlist.strings
+cTouch /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000005023B2880000000000000110
+t1344516744
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FE9FBDE0000000000244490
+t1340734430
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FE9FBDF0000000000353830
+t1340734431
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FE9FBE40000000000905E40
+t1340734436
+s9461312
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/Info.plist
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/PkgInfo
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/iOSCoverage.LinkFileList
+c000000005036351C000000000000021E
+t1345729820
+s542
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o
+t2
+s0
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m
+c0000000050361DB9000000000000037D
+t1345723833
+s893
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m
+c0000000050361C09000000000000088F
+t1345723401
+s2191
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/en.lproj/InfoPlist.strings
+c0000000050361C09000000000000002D
+t1345723401
+s45
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/iOSCoverage-Prefix.pch
+c0000000050361C090000000000000145
+t1345723401
+s325
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m
+c0000000050361C09000000000000015D
+t1345723401
+s349
+
+N/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c
+c000000005035B269000000000000021E
+t1345696361
+s542
+
+N/var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch.pth
+t1345725175
+s4095792
+
+N/var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cxzlzrvrkshwiwbccwdgqpnhirav/iOSCoverage-Prefix.pch.pth
+t1345725174
+s108836
+
+NiOSCoverage/iOSCoverage-Info.plist
+c0000000050361C09000000000000048D
+t1345723401
+s1165
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies408aa29c6ce6b541^3f37f49c6ce6b541^---0#1#0#--18"Check dependencies36"352F0297-9912-47F0-8CB5-79C5A66F6656-
+
+CCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367422621.002708
+e367422621.824745
+r1
+xCompileC
+xbuild/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o
+x/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m47e7009d6ce6b541^b325d39d6ce6b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m0000000000000000^3801"CompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o iOSCoverage/DLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-generated-files.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-own-target-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-all-target-headers.hmap -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-project-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources/i386 -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources -F/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -include /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch -MMD -MT dependencies -MF /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.d --serialize-diagnostics /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.dia -c /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/DLAppDelegate.m -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/DLAppDelegate.o36"38157C52-60EE-41F5-A68A-621639930AC1-
+
+CCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367422621.002692
+e367422621.662491
+r1
+xCompileC
+xbuild/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o
+x/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.md7dd009d6ce6b541^0399a99d6ce6b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m0000000000000000^3785"CompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o iOSCoverage/../../Common/MyCalc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-generated-files.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-own-target-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-all-target-headers.hmap -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-project-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources/i386 -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources -F/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -include /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch -MMD -MT dependencies -MF /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.d --serialize-diagnostics /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.dia -c /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/../../Common/MyCalc.m -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/MyCalc.o36"AB82D450-3906-4FC5-BF59-44F4A754D967-
+
+CCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367422621.002721
+e367422621.626268
+r1
+xCompileC
+xbuild/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o
+x/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m8ee6009d6ce6b541^4c53a09d6ce6b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m0000000000000000^3747"CompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o iOSCoverage/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-generated-files.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-own-target-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-all-target-headers.hmap -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-project-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources/i386 -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources -F/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -include /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch -MMD -MT dependencies -MF /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.dia -c /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/main.m -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/main.o36"3995CBE1-1084-4755-9F2C-676E0BAD31B0-
+
+CCompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s367422621.002727
+e367422621.628684
+r1
+xCompileC
+xbuild/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o
+x/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c6de2009d6ce6b541^c3f1a09d6ce6b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c0000000000000000^3339"CompileC build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o iOSCoverage/unixFix.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-generated-files.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-own-target-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-all-target-headers.hmap -iquote /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/iOSCoverage-project-headers.hmap -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources/i386 -I/Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/DerivedSources -F/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -include /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cxzlzrvrkshwiwbccwdgqpnhirav/iOSCoverage-Prefix.pch -MMD -MT dependencies -MF /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.d --serialize-diagnostics /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.dia -c /Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/unixFix.c -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/unixFix.o36"BD519CB7-81F2-4F33-8786-062C1532DEEC-
+
+CCopyStringsFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/en.lproj/InfoPlist.strings iOSCoverage/en.lproj/InfoPlist.strings
+s367422623.101373
+e367422623.132699
+r1
+xCopyStringsFile
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/en.lproj/InfoPlist.strings
+xiOSCoverage/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy iOSCoverage/en.lproj/InfoPlist.stringse6221a9f6ce6b541^e7fb219f6ce6b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/en.lproj/InfoPlist.strings0000000000000000^840"CopyStringsFile build/Debug-iphonesimulator/iOSCoverage.app/en.lproj/InfoPlist.strings iOSCoverage/en.lproj/InfoPlist.strings    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/en.lproj -- iOSCoverage/en.lproj/InfoPlist.strings36"C26EA89F-D8EE-4EE2-9255-B4223DE2D547-
+
+CGenerateDSYMFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage
+s367422622.652637
+e367422623.092831
+r1
+xGenerateDSYMFile
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYMd734a79e6ce6b541^a4c3179f6ce6b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM000000000080d041^900"GenerateDSYMFile build/Debug-iphonesimulator/iOSCoverage.app.dSYM build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app.dSYM36"EBD54751-ACAE-4526-9EE5-43C72C56754A-
+
+CLd /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage normal i386
+s367422621.831997
+e367422622.645709
+r1
+xLd
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoveragec845d59d6ce6b541^0150a59e6ce6b541^---0#0#0#--1495"Ld build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage normal i386    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -F/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator -filelist /Users/dlebedev/src/sandbox/Coverage/iOS/build/iOSCoverage.build/Debug-iphonesimulator/iOSCoverage.build/Objects-normal/i386/iOSCoverage.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -fprofile-arcs -ftest-coverage -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/iOSCoverage36"7E60C2BC-A6CE-4CF6-9B20-E7D8D211CF8D-
+
+CProcessInfoPlistFile /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/Info.plist iOSCoverage/iOSCoverage-Info.plist
+s367422620.981705
+e367422620.987952
+r1
+xProcessInfoPlistFile
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/Info.plist
+xiOSCoverage/iOSCoverage-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process iOSCoverage/iOSCoverage-Info.plist3081fb9c6ce6b541^5beafc9c6ce6b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/dlebedev/src/sandbox/Coverage/iOS/iOSCoverage/iOSCoverage-Info.plist0000000000000000^929"ProcessInfoPlistFile build/Debug-iphonesimulator/iOSCoverage.app/Info.plist iOSCoverage/iOSCoverage-Info.plist    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    builtin-infoPlistUtility iOSCoverage/iOSCoverage-Info.plist -genpkginfo /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app/Info.plist36"48324156-A375-436A-8F74-773841B6448F-
+
+CProcessPCH /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cdorrquwahogjsaqxzccatnzzxlq/iOSCoverage-Prefix.pch.pth iOSCoverage/iOSCoverage-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/cg/d92hykmd0y5dgz3c1x0znppm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iOSCoverage-Prefix-cxzlzrvrkshwiwbccwdgqpnhirav/iOSCoverage-Prefix.pch.pth iOSCoverage/iOSCoverage-Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app
+s367422623.140830
+e367422623.188157
+r1
+xTouch
+x/Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.appc025249f6ce6b541^9832309f6ce6b541^---0#0#0#--645"Touch build/Debug-iphonesimulator/iOSCoverage.app    cd /Users/dlebedev/src/sandbox/Coverage/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/dlebedev/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/dlebedev/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/dlebedev/.cabal/bin"    /usr/bin/touch -c /Users/dlebedev/src/sandbox/Coverage/iOS/build/Debug-iphonesimulator/iOSCoverage.app36"96967598-1C58-4DFF-B075-E2EC2FC16EDF-
+
